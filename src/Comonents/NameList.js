@@ -7,7 +7,7 @@ import React from 'react'
        age: 23,
        salary: 10000000,
      },
-     {}
+     {
        name: "karthi",
        age: 25,
        salary: 2000000,
