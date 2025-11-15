@@ -1,9 +1,9 @@
 import { Component } from "react";
 import "./App.css";
+import Form from "./Comonents/Form";
+  
  
  
-
-import NameList from "./Comonents/NameList";
 
 
 class App  extends Component{
@@ -11,10 +11,13 @@ class App  extends Component{
     return (
       <div className="App">
 
-        <NameList ></NameList>
+        <Form />
         {/* <Message />  */}
         {/*
         <EventBind />
+        <InLine />
+             <StyleSheet  primary={false} />
+         <NameList ></NameList>
         
         <UserGreeting />
          <ClassClick />
