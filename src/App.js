@@ -1,20 +1,20 @@
 import { Component } from "react";
 import "./App.css";
-import Form from "./Comonents/Form";
-  
- 
+import ParentCom from "./Comonents/parentCom";
  
 
-
-class App  extends Component{
+class App extends Component {
   render() {
     return (
       <div className="App">
+         <ParentCom/>
 
-        <Form />
-        {/* <Message />  */}
         {/*
         <EventBind />
+         <LifeCycleA />
+          <FrogmentDemo/>
+
+        <Form />
         <InLine />
              <StyleSheet  primary={false} />
          <NameList ></NameList>
